@@ -1,0 +1,47 @@
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767.99px) {
+
+    .container {
+        width: 600px;
+        margin: 2rem;
+    }
+    .row {
+        justify-content: center;
+    }
+
+    .col-60 {
+        width: 100%;
+    }
+
+    .col-40 {
+        width: 100%;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .presentation {
+        padding: 2rem;
+    }
+
+    .title-desc {
+        padding-top: 2rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .social-text {
+        display: none;
+    }
+
+    .social-icon {
+        width: 5rem;
+        gap: 5rem;
+    }
+}

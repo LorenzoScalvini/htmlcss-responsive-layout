@@ -5,22 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <script src="https://kit.fontawesome.com/b0866f726e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="container-full">
-            <div class="row navbar">
-                <div>
-                    <a href=""><span class="logo">Giallo Booleano</span></a>
+        <nav class="navbar">
+            <div class="container-full ">
+                <div class="row">
+                    <div>
+                        <a href=""><span class="logo">Giallo Booleano</span></a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <main>
-        <section class="container">
-            <div class="hero">
+        <section class="hero"></div>
+            <div class="container">
                 <div class="row">
                     <div class="col-100">
                         <span class="title">DOLCI E DESSERT</span>
@@ -29,7 +32,7 @@
                     <div class="col-60">
                         <img src="./img/image (10).png" alt="">
                     </div>
-                    <div class="40">
+                    <div class="col-40">
                         <p class="title-desc">In breve</p>
                         <P class="desc">Difficolta': <strong>Facile</strong></P>
                         <p class="desc">Tempo: <strong>40min</strong></p>
@@ -40,29 +43,27 @@
                 </div>
             </div>
         </section>
-
+        <section class="social">
        <section class="container">
-            <div class="row">
-                <div class="social">
+            <div class="row justify-space-around">
                     <div class="col-20 social-icon facebook">
-                        <a href=""><p><i class="fa-brands fa-facebook"></i>Facebook</p></a>
+                        <a href=""><p><i class="fa-brands fa-facebook"></i><p class="social-text">Facebook</p></p></a>
                     </div>
                     <div class="col-20 social-icon twitter">
-                        <a href=""><p><i class="fa-brands fa-twitter"></i>Twitter</p></a>
+                        <a href=""><p><i class="fa-brands fa-twitter"></i><p class="social-text">Twitter</p></p></a>
                     </div>
                     <div class="col-20 social-icon instagram">
-                        <a href=""><p><i class="fa-brands fa-instagram"></i>Instagram</p></a>
+                        <a href=""><p><i class="fa-brands fa-instagram"></i><p class="social-text">Instagram</p></p></a>
                     </div>
                     <div class="col-20 social-icon pinterest">
-                        <a href=""><p><i class="fa-brands fa-pinterest "></i>Pinterest</p></a>
+                        <a href=""><p><i class="fa-brands fa-pinterest "></i><p class="social-text">Pinterest</p></p></a>
                     </div>
                     <div class="col-20 social-icon youtube">
-                        <a href=""><p><i class="fa-brands fa-youtube"></i>Youtube</p></a>
+                        <a href=""><p><i class="fa-brands fa-youtube"></i><p class="social-text">Youtube</p></p></a>
                     </div>
                     <div class="col-100">
                         <img class="banner-img" src="./img/banner.png" alt="">
                     </div>
-                </div>
             </div>
        </section>
 
@@ -80,16 +81,15 @@
             </div>
        </section>
 
-       <footer class="container-full">
-            <div class="row footer">
-                        <div class="col-50 center">
-                            <div class="center">
+    </main>
+      <footer>
+        <div class="footer container-full">
+            <div class="row justify-space-between">
+                        <div>
                                 <strong>@ 2021 Giallo Booleano S.p.a</strong>
                                 <p>Via Tal die tali, 10 - 88046 Lamenzia Terme - VAT 43940293020</p>
-                            </div>
                         </div>
-                        <div class="col-50 links center">
-                            <div>
+                        <div>
                                 <ul>
                                     <li>
                                         <a href="">About us</a>
@@ -107,11 +107,9 @@
                                         <a href="">Disclamer</a>
                                     </li>
                                 </ul>
-                            </div>
                         </div>
                 </div>
             </div>
-       </footer>
-    </main>
+      </footer>
 </body>
 </html>

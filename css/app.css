@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -27,14 +29,19 @@ img {
 	max-width: 100%;
 }
 
-.logo {
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 60px;
-    padding: 2rem;
-    color: #fe9714;
-    text-shadow: 2px 1px #272727;
+/* UTILITY */
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-space-around {
+    justify-content: space-around;
 }
 
 /*  LAYOUT  */
@@ -75,7 +82,7 @@ img {
 }
 
 .banner-img {
-    margin: 1rem;
+    margin: 2rem;
 }
 /* NAVBAR */
 
@@ -83,6 +90,16 @@ img {
     align-items: center;
     height: 90px;
     background-color: #ffffff;
+}
+
+.logo {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding: 2rem;
+    color: #fe9714;
+    text-shadow: 2px 1px #272727;
 }
 
 /* HERO */
@@ -119,7 +136,7 @@ img {
 .social-icon {
     font-size: 18px;
     border-radius: 999px;
-    box-shadow: 10px 10px 5px rgb(36, 36, 36);
+    box-shadow: 5px 5px 5px rgb(36, 36, 36);
     padding: 1rem;
     text-align: center;
     vertical-align: middle;
@@ -176,19 +193,8 @@ img {
 .footer {
     background-color: #7c68a3;
     color:#ffffff;
-    height: 110px;
+    padding: 2rem;
 }
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
-  }
 
 
 
