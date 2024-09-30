@@ -19,6 +19,7 @@ a {
 ul,
 ol {
 	list-style: none;
+    display: flex;
 }
 
 img {
@@ -67,6 +68,10 @@ img {
 .col-100 {
 	width: 100%;
 }
+
+.banner-img {
+    margin: 1rem;
+}
 /* NAVBAR */
 
 .navbar {
@@ -93,13 +98,86 @@ img {
     font-size: 20px;
 }
 
+.desc {
+    padding-top: 1rem;
+}
+
 /* SOCIAL LINKS */
+.social {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
 
 .social-icon {
-    font-size: 20px;
+    font-size: 18px;
+    border-radius: 999px;
+    box-shadow: 10px 10px 5px rgb(36, 36, 36);
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    width: 12rem;
+
 }
 
 .social-icon.facebook {
     color: #2f55a4;
 }
+
+.social-icon.twitter {
+    color: #1DA1F2;
+}
+
+.social-icon.instagram{
+    color: #d139c4;
+}
+
+.social-icon.pinterest{
+    color: rgb(194, 54, 54);
+}
+
+.social-icon.youtube{
+    color: rgb(221, 38, 38);
+}
+
+.presentation {
+    margin: 2rem;
+}
+.presentation-title {
+    font-size: 40px;
+}
+
+.presentation-text {
+    font-size: 24px;
+}
+
+.presentation-img {
+    float: left;
+    width: 300px;
+    margin: 1rem;
+}
+
+.divider {
+    max-width: 10%;
+    max-height: 5px;
+    background-color: #fe9714;
+    margin: 1rem;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #7c68a3;
+    color:#ffffff;
+    height: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
